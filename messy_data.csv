@@ -1,0 +1,9 @@
+Name,Email,Join_Date,Age,Status
+John Doe,john@example.com,2023-01-15,25,active
+Jane Smith,jane@example.com,01/15/2023,30,active
+John Doe,john@example.com,2023-01-15,25,active
+Bob Johnson,,2023-02-20,,active
+Alice Brown,alice@example.com,02-Mar-2023,28,inactive
+,charlie@example.com,2023-03-10,35,active
+Jane Smith,jane@example.com,01/15/2023,,active
+Tom White,tom@example.com,2023-04-05,40,active

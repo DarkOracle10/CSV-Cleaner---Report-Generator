@@ -1,0 +1,10 @@
+CSV Cleaning Report - 2026-01-03T18:50:31
+Input file: messy_data.csv
+Output file: cleaned.csv
+Rows before: 8
+Rows after deduplication: 7
+Duplicate rows removed: 1
+Missing values filled: 7
+Date columns standardized: Join_Date
+Text columns filled with 'N/A': Name, Email, Join_Date, Status
+Numeric columns filled with 0: Age
