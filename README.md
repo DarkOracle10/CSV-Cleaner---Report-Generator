@@ -62,3 +62,4 @@ clean_csv_file(
 ## 👤 Author
 - Name: Amir Aeini
 - GitHub: https://github.com/DarkOracle10
+- Email: amir.aeiny10@gmail.com

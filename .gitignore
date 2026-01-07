@@ -1,0 +1,31 @@
+# Portfolio files
+portfolio_csv_automation.pdf
+generate_portfolio_csv_automation.py
+
+# Virtual environment
+CSV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Output files
+cleaned_*.csv
+*_report.txt
+cleaned_report.txt
+cleaned.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test files
+Test Files/
