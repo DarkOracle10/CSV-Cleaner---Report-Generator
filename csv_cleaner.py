@@ -47,7 +47,7 @@ def clean_csv_file(input_file, output_file, report_file=None, date_format="%Y-%m
     date_columns = []
     candidate_date_cols = df.select_dtypes(include=["object", "string"]).columns
     for col in tqdm(candidate_date_cols, desc="Date columns", unit=" col", ncols=70):
-        parsed = pd.to_datetime(df[col], errors="coerce", utc=False, infer_datetime_format=True)
+        parsed = pd.to_datetime(df[col], errors="coerce", utc=False)
         if parsed.notna().any():
             df[col] = parsed.dt.strftime(date_format)
             date_columns.append(col)
