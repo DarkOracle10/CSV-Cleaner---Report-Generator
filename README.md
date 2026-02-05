@@ -130,8 +130,7 @@ See the `examples/` directory for sample data:
 examples/
 ├── messy_data.csv          # Input: Dataset with issues
 ├── cleaned_data.csv        # Output: After cleaning
-├── cleaning_report.txt     # Report: Operations performed
-└── example_notebook.ipynb  # Jupyter: Interactive demo
+└── cleaning_report.txt     # Report: Operations performed
 ```
 
 ## 🛠️ CLI Reference

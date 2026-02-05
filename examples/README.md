@@ -4,16 +4,24 @@
 
 ### messy_data.csv
 Example input file with common data quality issues:
-- Duplicate rows
-- Missing values in multiple columns
-- Inconsistent date formats
-- Extra whitespace
+- **3 duplicate rows** (rows 8-10 duplicate earlier entries)
+- **Missing values** in Age, Email, Salary, and Department columns
+- **Inconsistent data types** that need standardization
+- Sample dataset with 15 rows total
 
 ### cleaned_data.csv
-Output after running cleaner with default settings
+Output after running cleaner with default settings:
+- Duplicates removed (12 rows remaining)
+- Missing numeric values filled with 0
+- Missing text values filled with "N/A"
+- Dates standardized to YYYY-MM-DD format
 
 ### cleaning_report.txt
-Sample report generated with `--report` flag
+Sample report generated during cleaning process showing:
+- Rows before and after deduplication
+- Number of duplicates removed
+- Missing values filled
+- Columns that were processed
 
 ## Quick Test
 
@@ -29,10 +37,14 @@ This will create:
 ## What Gets Cleaned?
 
 The example demonstrates:
-1. **Duplicate removal**: Rows 8-10 are exact duplicates that get removed
-2. **Missing value handling**: Empty cells in numeric columns filled with 0, text columns with "N/A"
-3. **Date standardization**: Various date formats (MM/DD/YYYY, DD-MM-YYYY) converted to YYYY-MM-DD
-4. **Whitespace cleanup**: Leading/trailing spaces removed
+1. **Duplicate removal**: Rows 8-10 are exact duplicates of rows 5, 6, and 2 respectively
+2. **Missing value handling**: 
+   - Empty Age cells filled with 0
+   - Empty Email cells filled with "N/A"
+   - Empty Salary cells filled with 0
+   - Empty Department cells filled with "N/A"
+3. **Date standardization**: All dates converted to YYYY-MM-DD format
+4. **Data consistency**: Ensures all data types are properly formatted
 
 ## Try It Yourself
 
