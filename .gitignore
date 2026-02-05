@@ -17,6 +17,10 @@ cleaned_*.csv
 cleaned_report.txt
 cleaned.csv
 
+# Keep examples directory files
+!examples/cleaned_*.csv
+!examples/*_report.txt
+
 # IDE
 .vscode/
 .idea/
@@ -29,3 +33,6 @@ Thumbs.db
 
 # Test files
 Test Files/
+
+# Keep examples directory
+!examples/

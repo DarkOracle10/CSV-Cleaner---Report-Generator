@@ -1,0 +1,6 @@
+ID,Name,Email,Age,Registration Date,City
+1,John Doe,john@example.com,25,01/15/2023,New York
+2,Jane Smith,,30,2023-02-20,Los Angeles
+3,John Doe,john@example.com,25,01/15/2023,New York
+4,Bob Johnson,bob@example.com,,15-03-2023,Chicago
+5,Alice Brown,alice@example.com,28,2023/04/10,Houston

@@ -1,0 +1,10 @@
+CSV Cleaning Report - 2026-02-05T06:32:24
+Input file: messy_data.csv
+Output file: cleaned_data.csv
+Rows before: 5
+Rows after deduplication: 5
+Duplicate rows removed: 0
+Missing values filled: 5
+Date columns standardized: Registration Date
+Text columns filled with 'N/A': Name, Email, Registration Date, City
+Numeric columns filled with 0: ID, Age

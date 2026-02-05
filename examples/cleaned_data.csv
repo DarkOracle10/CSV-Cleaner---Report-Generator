@@ -1,0 +1,6 @@
+ID,Name,Email,Age,Registration Date,City
+1,John Doe,john@example.com,25.0,2023-01-15,New York
+2,Jane Smith,N/A,30.0,N/A,Los Angeles
+3,John Doe,john@example.com,25.0,2023-01-15,New York
+4,Bob Johnson,bob@example.com,0.0,N/A,Chicago
+5,Alice Brown,alice@example.com,28.0,N/A,Houston
